@@ -73,12 +73,12 @@ header {
 }
 
 .header_frame {
-	/* background-color: orange; */
-	background-image: url('./media/Rectangle.jpg');
+	background-color: orange;
+	/* background-image: url('./media/Rectangle.jpg'); */
 	width: 100%;
 	height: 670px;
-	background-size: cover;
-	background-position: center;
+	/* background-size: cover;
+	background-position: center; */
 	display: flex;
 	justify-content: center;
 	padding-left: 25px;
@@ -752,9 +752,10 @@ nav {
 		height: 890px;
 		padding-top: 30px;
 		padding-bottom: 135px;
-		background-image: url(./media/Rectangle.jpg);
+		background-color: orange;
+		/* background-image: url(./media/Rectangle.jpg);
 		background-size: cover;
-		background-position: center;
+		background-position: center; */
 	}
 	.footer_connect {
 		flex-direction: column;
